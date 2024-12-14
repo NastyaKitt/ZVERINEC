@@ -1,0 +1,579 @@
+body {
+    margin: 0;
+    font-size: 10px;
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+.header {
+    height: 10em;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around}
+.butt{
+    width: 15rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    background-color: blue;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    border-radius: 6rem;
+    color: #fff;
+    border: none;
+    position: relative;
+    transition: 1s;
+}
+.butt:hover{
+    width: 17rem;
+    height: 3.5rem;
+    background-color: #0606d4;
+    bottom: 0.2rem;
+    color: #ffffffc2;
+    rotate: 2deg;
+}
+.header1 {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 800;
+}
+.firstWin {
+    width: 100%;
+    height: 69em;
+    background-color: #000;
+}
+.firstWin1, .firstWin2 {
+    width: calc(100% - 4rem);
+    height: 34em;
+    background-color: #fff;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin: 0 2rem;
+}
+.firstWin11 {
+    width: 500rem;
+    height: 5rem;
+    font-size: 5rem;
+    font-weight: 800;
+    color: #000;
+}
+.firstWin2 {
+    background-color: #002AFF;
+    background-image: url(img/423681-middle.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+.firstWin21 {
+    width: 30rem;
+    padding-left: 2rem;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;}
+.firstWin211 {
+    color: #fff;
+    font-size: 2rem;
+}
+.firstWin211 p {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 200;
+}
+.firstWin212 {
+    width: 25rem;
+    height: 2rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 5rem;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    position: relative;
+    bottom: 1rem;
+    color: #002AFF;
+}
+.firstWin212:hover {
+    width: 27rem;
+    height: 3rem;
+    bottom: 20px;
+    transition: 1s;
+}
+.secondWin {
+    width: calc(100% - 4rem);
+    height: 45rem;
+    background-color: aqua;
+    margin: 0 2rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(img/orig.jpg);
+    background-size: cover;
+}
+.secondWin1 {
+    position: relative;
+    width: 30rem;
+    height: 30rem;
+    background-color: #002AFF;
+    color:#fff;
+    left: 5rem;
+    border-radius: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.secondWin11 {
+    text-align: left;
+    font-size: 1.4rem;
+    padding: 2rem 0 0 2rem;
+    font-weight: 800;
+}
+.secondWin11 p {
+    font-family: 0.5rem;
+    margin: 0;
+    font-weight: 400;
+}
+.secondWin12 {
+    position: relative;
+    bottom: 10px;
+    height: 3rem;
+    width: 25rem;
+    border-radius: 5rem;
+    border: 0;
+    background-color: #fff;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.secondWin12:hover {
+    width: 27rem;
+    height: 3.5rem;
+    transition: 1s;
+    font-size: 2.5rem;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+.threeWin {
+    width: calc(100% - 4rem);
+    height: 165rem;
+    background-color: #2545E4;
+    margin: 0 2rem;
+    border-radius: 2rem;
+}
+.threeWin1 {
+    width: 100%;
+    height: 15rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    overflow: hidden;
+}
+.threeWin11 {
+    height: 5rem;
+    line-height: 5rem;
+    margin-bottom: 0;
+}
+.threeWin12 {
+    width: 200rem;
+    text-align: start;
+    font-size: 5rem;
+}
+.threeWin2 {
+    width: 100%;
+    height: 65rem;
+    display: grid;
+
+    grid-template-areas:
+    "A A A A  B B B B  B B B B"
+    "A A A A  B B B B  B B B B"
+    "A A A A  C C C C  C C C C"
+    "A A A A  C C C C  C C C C" 
+    ;
+}
+
+.threeWin21 {
+    width: 30rem;
+    height: 60rem;
+    background-image: url(img/w.jpg);
+    background-repeat: none;
+    background-color: #F13564;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem 0 0 2rem ;
+    grid-area: A;
+}
+.threeWin21:hover {
+    width: 32rem;
+    transition: 1s;
+    box-shadow: 0px 10px 20px 5px rgba(255, 0, 119, 0.849);
+    height: 62rem;
+    background-color: #ff1b54;
+    transform: translateY(-1rem);
+}
+.threeWin22 {
+    width: 70rem;
+    height: 20rem;
+    background-color: #FFCD42;
+    background-image: url(img/ыфв.jpg);
+    background-size: contain;
+    border-radius: 2rem;
+    margin: 2rem 0 0 6rem;
+    grid-area: B;
+    text-align: center;
+    font-size: 3rem;
+}
+.threeWin22:hover {
+    width: 72rem;
+    height: 22rem;
+    transition: 1s;
+    box-shadow: 0px 10px 20px 5px rgba(255, 231, 17, 0.849);
+    transform: translateY(-1rem);
+}
+.threeWin23 {
+    width: 70rem;
+    height: 20rem;
+    grid-area: C;
+    border-radius: 2rem;
+    margin: 0 0 0 6rem;
+    font-size: 4rem;
+    font-weight: 500;
+}
+.threeWin201, .threeWin199, .threeWin209, .threeWin2011, .threeWin412 ,.threeWin4122, .threeWin4124, .threeWin4126, .threeWin4128, .threeWin4120, .threeWin41211, .threeWin41213 {
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 4rem;
+    color: #F13564;
+    margin-left: 10rem;
+}
+.threeWin199 {
+    margin-left: 30rem;
+    color: #FFCD42;
+}
+.threeWin3 {
+    height: 45rem;
+    width: 100%;
+    background-color: #2545E4;
+    display: flex;
+    justify-content: space-between;
+}
+.threeWin31 {
+    width: 35rem;
+    border-radius:2rem;
+    height:35rem;
+    text-align: center;
+    font-size: 3rem;
+    background-color:#35F18A ;
+    background-image: url(img/фывц-middle.jpg);
+    margin-left: 2rem;
+    margin-top: 5rem;
+}
+.threeWin31:hover {
+    width: 37rem;
+    height: 37rem;
+    background-color:#18fd7f;
+    box-shadow: 0px 10px 20px 5px rgba(7, 250, 27, 0.849);
+    transform: translateY(-1rem);
+    transition: 1s;
+}
+.threeWin209 {
+    color: #35F18A;
+}
+.threeWin32 {
+    width: 15rem;
+    height: 35rem;
+    display: flex;
+    margin-top: 1rem;
+}
+.threeWin204 {
+    width: 5rem;
+    font-size: 2.6rem;
+    font-weight: 800;
+}
+.threeWin33 {
+    width: 35rem;
+    border-radius:2rem;
+    height:40rem;
+    text-align: center;
+    font-size: 3rem;
+    margin-left: 2rem;
+    background-color:#35CFF1 ;
+    background-image: url(img/wad-middle.jpg);
+    background-repeat: no-repeat;
+    margin-right: 4rem;
+}
+.threeWin33:hover {
+    width: 37rem;
+    height: 42rem;
+    background-color:#18d5ff;
+    box-shadow: 0px 10px 20px 5px rgba(0, 255, 200, 0.849);
+    transition: 1s;
+    transform: translateY(-1rem);
+
+}
+.threeWin2011 {
+    color: #35CFF1;
+}
+.threeWin4 {
+    height: 30rem;
+    width: 100%;
+    background-color: #2545E4;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.threeWin41 {
+    width: 35rem;
+    height: 4rem;
+    background-color: #002AFF;
+    border-radius: 4rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+.threeWin5 {
+    height: 40rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-right: 4rem;
+}
+.threeWin6 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #2545E4;
+}
+.threeWin61 {
+    height: 4rem;
+    width: 35rem;
+    background-color: #2545E4;
+    border: #fff solid 2px;
+    border-radius: 2rem;
+    color: #fff;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 2rem;
+}
+.threeWin61:hover {
+    width: 37rem;
+    height: 6rem;
+    font-size: 2.5rem;
+    transition: 2s;
+    background-color: #fff;
+    color: #000;
+    border: #000 solid 2px;
+    transform: translateY(-1rem);
+    box-shadow: 0px 1rem 3rem #000;
+
+}
+.threeWin412, .threeWin4122, .threeWin4124, .threeWin4126, .threeWin4128, .threeWin4120, .threeWin41211, .threeWin41213 {
+    margin-left: 12rem;
+}
+#threeWin111 {
+    background-color: #0F0AA4;
+}
+
+#threeWin111:hover {
+    width: 37rem;
+    height: 6rem;
+    transition: 1s;
+    box-shadow: 0 5px 20px #150ed1; 
+    transform: translateY(-1rem);
+}
+.threeWin412 {
+    color: #0F0AA4;
+}
+#threeWin1112{
+    background-color: #B2AEAA;
+}
+#threeWin1112:hover {
+    width: 37rem;
+    height: 6rem;
+    transition: 1s;
+    box-shadow: 0 5px 20px #B2AEAA; 
+    transform: translateY(-1rem);
+}
+.threeWin4122 {
+    color: #B2AEAA;
+}
+#threeWin1113{
+    background-color: #8cb406;
+}
+#threeWin1113:hover {
+    width: 37rem;
+    height: 6rem;
+    transition: 1s;
+    box-shadow: 0 5px 20px #8cb406; 
+    transform: translateY(-1rem);
+}
+.threeWin4124 {
+    color: #8cb406;
+}
+#threeWin1114{
+    background-color: #D9211B;
+}
+#threeWin1114:hover {
+    width: 37rem;
+    height: 6rem;
+    transition: 1s;
+    box-shadow: 0 5px 20px #D9211B; 
+    transform: translateY(-1rem);
+}
+.threeWin4126 {
+    color: #D9211B;
+}
+#threeWin1115{
+    background-color: #F764FF;
+}
+#threeWin1115:hover {
+    width: 37rem;
+    height: 6rem;
+    transition: 1s;
+    box-shadow: 0 5px 20px #F764FF; 
+    transform: translateY(-1rem);
+}
+.threeWin4128 {
+    color: #F764FF;
+}
+#threeWin1116{
+    background-color: #CB30D3;
+}
+#threeWin1116:hover {
+    width: 37rem;
+    height: 6rem;
+    transition: 1s;
+    box-shadow: 0 5px 20px #CB30D3; 
+    transform: translateY(-1rem);
+}
+.threeWin4120 {
+    color: #CB30D3;
+}
+#threeWin1117{
+    background-color: #D2A7E7;
+}
+#threeWin1117:hover {
+    width: 37rem;
+    height: 6rem;
+    transition: 1s;
+    box-shadow: 0 5px 20px #D2A7E7; 
+    transform: translateY(-1rem);
+}
+.threeWin41211 {
+    color: #D2A7E7;
+}
+#threeWin1118 {
+    background-color: #69AFFF;
+}
+#threeWin1118:hover {
+    width: 37rem;
+    height: 6rem;
+    transition: 1s;
+    box-shadow: 0 5px 20px #69AFFF;
+    transform: translateY(-5px);
+}
+.threeWin41213 {
+    color: #69AFFF;
+}
+.fourWin {
+    height: 70rem;
+    width: calc(100% - 4rem);
+    margin: 0 2rem;
+    background-color: #2545E4;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fourWin1 {
+    width: 100rem;
+    height: 20rem;
+    background-color: #fff;
+    border-radius: 4rem;
+    border: 1px solid #000;
+    padding-left: 1rem;
+    color: #2545E4;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.fourWin2 {
+    width: 100rem;
+    height: 40rem;
+    background-color: #fff;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    color: #000;
+}
+.fourWin21 {
+    width: 41%;
+    height: 100%;
+}
+.fourWin22 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.fourWin221 {
+    font-size: 3rem;
+    width: 100%;
+    height: 8rem;
+    font-weight: 600;
+}
+.nnn {
+    width: 80%;
+    height: 3rem;
+    border: 4px dotted #000 ;
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    padding-left: 1rem;
+}
+.fourWin223 {
+    height: 4rem;
+    width: 40rem;
+    border-radius: 2rem;
+    border: 1px solid #000;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    background-color: #fff;
+    font-size: 2rem;
+    margin: 5rem 0 0 0;
+}
+.fourWin223:hover {
+    background-color: #2545E4;
+    transition: 1s;
+    color: #fff;
+    box-shadow: 0 5px 20px #69AFFF;
+    transform: translateY(-5px);
+}
+.footer {
+    width: calc(100% - 4rem);
+    margin: 0 2rem;
+    height: 20rem;
+    background-color: #2545E4;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
